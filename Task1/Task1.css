@@ -1,0 +1,361 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  }
+  .Header-section {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .Header-section nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .Header-section .logo {
+    width: 40px;
+    height: 30px;
+    border-radius: 60%;
+  }
+  
+  .Header-section span {
+    font-size: 31px;
+    align-items: Right;
+  }
+  
+  .Header-section ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .Header-section ul li {
+    margin-left: 20px;
+  }
+  
+  .Header-section ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 10px;
+  }
+  
+  .Header-section ul li a:hover {
+    background-color: #333;
+  }
+  
+  .Header-section hr {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+  }
+
+  #About-section {
+    padding: 20px;
+    background-color: #f5f5f5;
+    background-image: url("2.jpg"); /* Replace "coding-background.jpg" with your desired image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  #About-section h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #f5d6d6; /* Adjust to contrast with your background image */
+  }
+  
+  #About-section p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #fdf7f7; /* Adjust to contrast with your background image */
+  }
+  
+  #About-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #eee7e7; /* Adjust to contrast with your background image */
+    display: flex;
+    margin: 20px;
+    justify-content: space-evenly;
+  }
+  
+  #About-section ul li {
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  
+  /* Optional: Add styling for each section */
+  
+  #Skills p {
+    color: #007bff;
+  }
+  
+  #Expertise p {
+    font-style: italic;
+  }
+  
+  /* Optional: Add media queries for responsive design */
+  
+  @media only screen and (max-width: 768px) {
+    #About-section h2 {
+      font-size: 20px;
+    }
+  
+    #About-section p {
+      font-size: 14px;
+    }
+  }
+  
+  #Skills-section {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: scroll;
+   font: 100;
+   color: #a51d1d;
+   background-image: url("3.jpg");
+  }
+  
+  #Skills-section h2 {
+    font-size: 24px;
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  #Skills-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  #Skills-section li {
+    margin: 10px;
+    flex-basis: 40%;
+    text-align: center;
+  }
+  
+  .skill-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #ddd;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .skill-bar::-webkit-progress-value {
+    background-color: #333;
+    border-radius: 50px;
+  }
+  
+  .skill-bar:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  }
+  /* project section */
+  #projects {
+    background-image: url(5.jpg);
+    background-color: #161616;
+    padding: 20px;
+  }
+  
+  #container {
+    background-image: url(5.jpg);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: #fdf7f7;
+  }
+  
+  .project {
+    background-image: url(5.jpg);
+    width: calc(114%);
+    margin: 17px;
+    background-color: #e9d6d6;
+    border: 2px solid #f17d7d6e;
+    border-radius: 40px;
+    padding: 11px;
+    position: relative;
+    background-image: url(4.jpg);
+}
+  
+  #project::after {
+    background-image: url(5.jpg);     
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(to right, #ddd, #ccc);
+  }
+  
+  #project img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  .project h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: floralwhite;
+    text-align: center;
+  }
+  #project h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: floralwhite;
+  }
+  
+  #project p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 0;
+    color: #fff;
+  }
+  
+  
+  
+  
+.container {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact button[type="submit"] {
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#contact {
+  background: #fdfdfd;
+  padding: 50px;
+  margin: 1px -30px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  padding-right: 0px;
+}
+
+#contact h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+#contact h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #4CAF50;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#contact button[type="submit"]:hover {
+  background: #43A047;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#Resume-section {
+  background-image: url(6.jpg);
+  padding: 20px;
+  background-color: #1d1c1c;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#Resume-section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#Resume-section p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+#Resume-section a {
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+#Resume-section a:hover {
+  background-color: #0062cc;
+}
+
+
+footer{
+  text-align: center;
+  text-decoration: underline;
+}
