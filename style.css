@@ -1,0 +1,264 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-abstract-watercolor-background_23-2149009911.jpg?w=996&t=st=1683608027~exp=1683608627~hmac=d2d9488a9214e4cdc5b5be303e1fd284d6b5b4a8430942f16ae3708dcd7e5b39);
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #002145;
+  }
+  
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  form label {
+    width: 100px;
+    font-weight: bold;
+    color: #002145;
+  }
+  
+  form input[type="text"],
+  form select,
+  form textarea {
+    flex: 1;
+    padding: 5px;
+  }
+  
+  form textarea {
+    resize: vertical;
+  }
+  
+  #addButton {
+    background-color: #9AC337;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  #addButton:hover {
+    background-color: #7EAD2D;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  table th,
+  table td {
+    border: 1px solid #000;
+    padding: 8px;
+  }
+  
+  table th {
+    background-color: #002145;
+    color: white;
+  }
+  
+  table td:last-child {
+    text-align: center;
+  }
+  
+  #fileInputContainer {
+    margin-bottom: 10px;
+  }
+  
+  #saveButton {
+    background-color: #002145;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+  cursor: pointer;
+  }
+  
+  #saveButton:hover {
+  background-color: #00367E;
+  }
+  
+  .status-select {
+  width: 100%;
+  }
+  
+  .status-select option {
+  color: #000;
+  background-color: #99E9DE;
+  }
+  
+  .status-select option[value="Applied"] {
+  background-color: #9AC337;
+  }
+  
+  .status-select option[value="Interview"] {
+  background-color: #002145;
+  color: white;
+  }
+  
+  .status-select option[value="Offer"] {
+  background-color: #D95E4E;
+  color: white;
+  }
+  
+  :root{
+      --headingSize: 55px;
+  }
+  
+  span{
+    display: inline-block;
+    overflow: hidden;
+    animation: .3s swift-up ease-in-out forwards;	
+  }
+  
+  i{
+    font-style: normal;
+    position: relative;
+    top: var(--headingSize);
+    animation: .5s swift-up ease-in-out forwards;
+  }
+  
+  @keyframes swift-up {
+    to {
+      top: 0;
+    }
+  }
+
+
+
+  * { 
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box; 
+} 
+
+
+
+header { 
+	background-color: #46812a; 
+	color: #fff; 
+	text-align: center; 
+	padding: 1rem 0; 
+} 
+
+nav ul { 
+	list-style: none; 
+	display: flex; 
+	justify-content: center; 
+	background-color: #746f6f; 
+	padding: 0.5rem 0; 
+} 
+
+nav li { 
+	margin-right: 20px; 
+} 
+
+nav a { 
+	text-decoration: none; 
+	color: #fff; 
+	font-weight: bold; 
+	transition: color 0.3s; 
+} 
+
+nav a:hover { 
+	color: #ff6600; 
+} 
+
+.search { 
+	text-align: center; 
+	margin-top: 2rem; 
+} 
+
+.search h2 { 
+	font-size: 24px; 
+	margin-bottom: 1rem; 
+} 
+
+.search form { 
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+} 
+
+.search input[type="text"] { 
+	padding: 10px; 
+	margin-right: 10px; 
+	border: 1px solid #ccc; 
+	border-radius: 4px; 
+} 
+
+.search button { 
+	background-color: #ff6600; 
+	color: #fff; 
+	border: none; 
+	padding: 10px 20px; 
+	border-radius: 4px; 
+	cursor: pointer; 
+	transition: background-color 0.3s; 
+} 
+
+.search button:hover { 
+	background-color: #ff3300; 
+} 
+
+.job-listings { 
+	margin: 2rem 0; 
+} 
+
+.job-listings h2 { 
+	font-size: 24px; 
+	margin-bottom: 1rem; 
+	text-align: center; 
+} 
+
+.job-listings ul { 
+	list-style: none; 
+} 
+
+.job-listings li { 
+	background-color: #fff; 
+	border: 1px solid #ccc; 
+	padding: 20px; 
+	margin-bottom: 20px; 
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+} 
+
+.job-listings h3 { 
+	font-size: 20px; 
+	margin-bottom: 10px; 
+} 
+
+.job-listings p { 
+	font-size: 14px; 
+	margin-bottom: 10px; 
+} 
+
+.job-listings a { 
+	background-color: #333; 
+	color: #fff; 
+	text-decoration: none; 
+	padding: 10px 20px; 
+	border-radius: 4px; 
+	display: inline-block; 
+	transition: background-color 0.3s; 
+} 
+
+.job-listings a:hover { 
+	background-color: #ff6600; 
+} 
+
+footer { 
+	text-align: center; 
+	background-color: #333; 
+	color: #fff; 
+	padding: 1rem 0; 
+}
